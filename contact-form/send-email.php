@@ -29,7 +29,7 @@
 
 <p>
 <?php 
-    $isSent = mail('edysegura@gmail.com', 'subject', 'message');
+    $isSent = mail($_POST['email'], 'Feedback message', $_POST['message']);
     if($isSent) {
         echo "Email sent!";
     }
