@@ -12,21 +12,21 @@
 
 <h1>Contact Form</h1>
 
-<form action="send-email.php">
+<form method="POST" action="send-email.php">
     <fieldset>
         <label for="">
             Name
-            <input type="text" name="name">
+            <input type="text" name="name" required>
         </label>
         
         <label for="">
             E-mail
-            <input type="email" name="email">
+            <input type="email" name="email" required>
         </label>
         
         <label for="">
             Message
-            <textarea name="message"></textarea>
+            <textarea name="message" required></textarea>
         </label>
         
         <input type="submit" value="Send">
