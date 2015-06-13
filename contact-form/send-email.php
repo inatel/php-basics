@@ -5,8 +5,6 @@
 <meta charset="UTF-8">
 <title>Sent Data</title>
 
-<link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
 
